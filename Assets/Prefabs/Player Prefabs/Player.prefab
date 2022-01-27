@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 523602681863411400}
   - component: {fileID: 7482995676834958097}
   - component: {fileID: 4733398065898452722}
-  - component: {fileID: 7645897578438581949}
+  - component: {fileID: 684392555}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -2311659948842064771, guid: 3fde2da10b0777c4ea2cdf3f5a14ebee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -152,7 +152,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.85, y: 1.76}
   m_EdgeRadius: 0
---- !u!114 &7645897578438581949
+--- !u!114 &684392555
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,5 +165,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveForce: 20
-  jumpForce: 700
-  maxVelocity: 4
+  jumpForce: 720
+  maxVelocity: 5
